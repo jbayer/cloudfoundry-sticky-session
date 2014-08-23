@@ -3,6 +3,4 @@ applications:
 - name: sticky-session
   memory: 256M
   instances: 4
-  host: ${name}-${random-word}
-  domain: cfapps.io
   path: target/StickySessionApp-1.0.war
